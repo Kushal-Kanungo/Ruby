@@ -6,7 +6,7 @@ class Book
 
   def read_book
     # We can use self or @ for class attribute but prefer @
-    puts "Reading #{self.title} by #{@author}"
+    puts "Reading #{title} by #{@author}"
   end
 end
 

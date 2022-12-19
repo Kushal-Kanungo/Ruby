@@ -12,5 +12,3 @@ puts my_string[3, 7] # TO get substring
 
 puts my_string.include? 'WORLD' # It return a boolean value
 puts my_string.index 'O' # It return the index of the value we provided
-
-

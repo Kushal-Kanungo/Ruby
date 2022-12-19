@@ -3,9 +3,9 @@
 is_person = true
 is_adult = false
 
-if is_person and is_adult
+if is_person && is_adult
   puts 'You are ready to drive'
-elsif is_person and !is_adult
+elsif is_person && !is_adult
   puts 'You are a person but you are not ready'
 else
   puts 'You are not even a person! How you gonna drive ?'
@@ -20,4 +20,3 @@ puts 1 != 0
 puts "Comparing string  #{'a' == 'a'}"
 puts "a is greater than b  #{'a' > 'b'}"
 puts "a is smaller than b  #{'a' < 'b'}"
-

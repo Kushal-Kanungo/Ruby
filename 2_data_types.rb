@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # ? Data Types
 my_int = 1
 my_float = 1.23
@@ -12,7 +14,7 @@ puts my_nil
 puts my_string
 
 # Normal Concatenation
-puts 'My name is ' + my_string
+puts "My name is #{my_string}"
 
 # String Interpolation
 puts "My name is #{my_string}"
@@ -20,7 +22,6 @@ puts "My name is #{my_string}"
 # ? Casting and Coverting
 puts 'Casting and Coverting'
 puts 3.14.to_i # To Int
-puts 2.to_f   # TO float
+puts 2.to_f # TO float
 puts '3.2'.to_i # to int
 puts 2.2.to_s # to string
-

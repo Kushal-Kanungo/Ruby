@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 my_grade = 'F'
 case my_grade
 when 'A'

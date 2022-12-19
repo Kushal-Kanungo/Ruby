@@ -20,3 +20,4 @@ puts '\n'
 puts my_nums.include? 4
 
 puts my_nums.pop # removes the last element and returns it
+

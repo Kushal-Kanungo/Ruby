@@ -24,7 +24,6 @@ class Book
     puts 'getter'
     @title
   end
-
 end
 
 book1 = Book.new('Harry Potter', 'JK Rowling')
@@ -34,4 +33,4 @@ book1.read_book
 puts book1.title
 
 # setter will be used
-book1.title = "New Book Name"
+book1.title = 'New Book Name'
