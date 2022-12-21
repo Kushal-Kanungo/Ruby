@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 my_nums = []
-
 my_nums.push(1)
 my_nums.push(3)
 my_nums.push(5)
@@ -18,6 +17,4 @@ print my_nums.sort
 puts '\n'
 
 puts my_nums.include? 4
-
 puts my_nums.pop # removes the last element and returns it
-
