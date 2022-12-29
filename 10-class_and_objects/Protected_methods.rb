@@ -6,6 +6,7 @@ class Car
     @value = base_value - age_reduction - miles_deduction
   end
 
+  # value is a protected attribute so not available out side class but here we can access 'value' attribute of 'car' object inside the class 
   def compare_car_with(car)
     value > car.value ? 'Your car is better !' : 'Your car is worse !'
   end

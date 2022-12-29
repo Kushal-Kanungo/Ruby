@@ -1,9 +1,9 @@
 # Module is a toolbox or container of methods and constants
-# 1. Constants in the module should be written in All Upper Case
-# 2. Access module methods with (.) operator
-# 3. Access module constants with (::) symbol
-# 4. :: scope resolution operator
-# 5. Constants and methods mixed into class do not need to be prefixed with module name
+#* 1. Constants in the module should be written in All Upper Case
+#* 2. Access module methods with (.) operator
+#* 3. Access module constants with (::) symbol
+#* 4. :: scope resolution operator
+#* 5. Constants and methods mixed into class do not need to be prefixed with module name
 
 # ? What is mixin ?
 # todo: Mixin is a module that injects addtional behaviours to the class

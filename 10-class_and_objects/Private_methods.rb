@@ -27,7 +27,7 @@ class Gadget
   # TODO:  Every methods below it will be private
   private
 
-  # So this is our private method
+  # So this is our private method it is only availabel inside the class 
   def generate_produciton_number
     start_digits = rand(1000..9999)
     end_digits = rand(1000..9999)
