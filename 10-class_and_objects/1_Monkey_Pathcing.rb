@@ -26,6 +26,6 @@ class String
     end
     sum
   end
-end
+end 
 
 puts 'abc'.alpha_sum
